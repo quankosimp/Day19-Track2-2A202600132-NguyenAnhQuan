@@ -136,6 +136,17 @@ review từ cùng URL public LMS.
 
 ---
 
+## Trạng thái hoàn thành (repo hiện tại)
+
+- [x] `bonus/ARCHITECTURE.md` đã tạo (>= 600 từ, có Mermaid architecture diagram).
+- [x] Có 3 quyết định kiến trúc với tradeoff explicit (chunking, feature schema, freshness).
+- [x] Có Vietnamese-context considerations (code-switching, typo, privacy context).
+- [x] Có rejected alternative nêu rõ lý do.
+- [x] `bonus/agent.py` có `HybridMemoryAgent.remember()` và `.recall()`.
+- [x] `bonus/demo.py` chạy được với 5 query outputs (đã verify bằng `.venv/bin/python bonus/demo.py`).
+
+---
+
 ## Topics gợi ý để mở rộng (optional, không bắt buộc)
 
 Nếu hoàn thành 3 deliverables nhanh và muốn push xa hơn:
