@@ -105,15 +105,15 @@ Output: print context được assembled cho mỗi query.
 
 ## Self-checklist cho strong submissions
 
-- [ ] Sơ đồ kiến trúc rõ — không cần đẹp, cần đúng.
-- [ ] 3 quyết định mỗi cái có **tradeoff explicit** (X vs Y, why X) — không
+- [x] Sơ đồ kiến trúc rõ — không cần đẹp, cần đúng.
+- [x] 3 quyết định mỗi cái có **tradeoff explicit** (X vs Y, why X) — không
       phải "X tốt".
-- [ ] Ít nhất 1 quyết định show *Vietnamese-context awareness* (token,
+- [x] Ít nhất 1 quyết định show *Vietnamese-context awareness* (token,
       code-switching, hoặc privacy/Decree-13).
-- [ ] Code chạy được — `python bonus/demo.py` exits 0.
-- [ ] Architecture quyết định có sự **liên kết rõ với lab concept** (PIT
+- [x] Code chạy được — `python bonus/demo.py` exits 0.
+- [x] Architecture quyết định có sự **liên kết rõ với lab concept** (PIT
       join, TTL, streaming, RRF — không bỏ pass nào).
-- [ ] Honest limitations — viết 1 đoạn "What this POC doesn't handle yet"
+- [x] Honest limitations — viết 1 đoạn "What this POC doesn't handle yet"
       (ví dụ: privacy isolation per user, encryption at rest, CRUD on
       memories, multi-device sync).
 
